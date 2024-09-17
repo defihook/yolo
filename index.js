@@ -9,7 +9,6 @@ export default async function App() {
   const data = await getPumpList()
   return (
     <Stack className="app" pt={7}>
-      <Header />
       <List data={data} />
       <Detail />
     </Stack>
