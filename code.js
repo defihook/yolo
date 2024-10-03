@@ -8,6 +8,7 @@ export default async function App() {
   return (
     <Stack className="app" pt={7}>
       <Header />
+      <Header />
       <List data={data} />
       <Detail />
     </Stack>
