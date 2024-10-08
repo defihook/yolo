@@ -1,6 +1,7 @@
 import { Stack } from "@mui/material"
 import List from "./modules/list"
 import Header from "./modules/header"
+import Header from "./modules/header"
 import { getPumpList } from "common/api"
 import "./style.scss"
 import Detail from "./modules/list/detail"
